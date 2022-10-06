@@ -13,3 +13,9 @@ end
 
 #can't reach the time limit
 # can't achieve to get a more efficient code
+#BEST SOLUTION
+# def dbl_linear(n)
+#   u=[1]
+#   (0..n*5).each { |i| u << u[i]*2 + 1 << u[i]*3 + 1}
+#   u.sort.uniq[n]
+# end
